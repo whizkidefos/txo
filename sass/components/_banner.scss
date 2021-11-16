@@ -1,0 +1,28 @@
+.banner {
+  padding: 12rem 0;
+
+  .hero-text {
+    opacity: 0;
+    margin: 3rem 0 5rem 0;
+  }
+}
+
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 7rem;
+
+  .left,
+  .right {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 960px) {
+  .intro {
+    .left,
+    .right {
+      width: 100%;
+    }
+  }
+}

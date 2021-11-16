@@ -1,0 +1,51 @@
+.contact {
+  padding: 5rem 0 12rem 0;
+}
+
+form {
+  margin-top: 20px;
+
+  input[type="text"],
+  input[type="email"] {
+    background: transparent;
+    border: none;
+    color: $primary-color;
+    display: block;
+    font-size: 144px;
+    width: 100%;
+  }
+
+  ::placeholder {
+    color: $gray;
+    font-size: 144px;
+  }
+}
+
+@media (max-width: 960px) {
+  form {
+    input[type="text"],
+    input[type="email"] {
+      font-size: 72px;
+      width: 100%;
+    }
+
+    ::placeholder {
+      color: $gray;
+      font-size: 72px;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  form {
+    input[type="text"],
+    input[type="email"] {
+      font-size: 45px;
+    }
+
+    ::placeholder {
+      color: $gray;
+      font-size: 45px;
+    }
+  }
+}
